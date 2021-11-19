@@ -1,9 +1,5 @@
 # DTA: Physical Camouflage Attacks using Differentiable Transformation Network [Supplementary Material]
 
-Photo-Realistic Simulation Demo |  Real World Demo
-:-----------------------------:|:-----------------------------:
-![DTA Photo Realistic Demo](./static/dta_photorealistic_demo.gif)  |  ![Real World Demo](./static/dta_real_world.gif)
-
 ## [Important Note for Reviewer]
 Due to confidentiality reasons, unfortunately, we cannot disclose any part of our code publicly on GitHub. Instead, we can only show our results, output screenshots, and visualizations.
 
@@ -12,6 +8,10 @@ Nevertheless, we can still provide the code in the supplementary material, stric
 We are aware that in our abstract, we specifically mentioned that our source code, generated data, and pre-trained model are available in the GitHub. Unfortunately, it was after the paper's submission deadline that we received the information about our code should remain private.
 
 We apologize for the inconvenience caused.
+
+Photo-Realistic Simulation Demo |  Real World Demo
+:-----------------------------:|:-----------------------------:
+![DTA Photo Realistic Demo](./static/dta_photorealistic_demo.gif)  |  ![Real World Demo](./static/dta_real_world.gif)
 
 ## Overview
 **DTA: Physical Camouflage Attacks using Differentiable Transformation Network** is implemented using TensorFlow 2 except for photo-realistic render, in which we use [CARLA](https://carla.org/) simulator (version 0.9.11) on [Unreal Engine](https://www.unrealengine.com/en-US/) (version 4.24).
@@ -61,7 +61,9 @@ loss: 0.059596624225378036; binary_accuracy: 0.8889378905296326; accuracy: 0.979
 ```
 
 #### Sample Images
-![Training Samples](./output/trained_model/plot/dtn_densenet_4_2_histories.png)
+```
+Please open ./output/trained_model/sample_imgs/
+```
 
 
 ### 2. Generate the attack pattern using DTA Framework
